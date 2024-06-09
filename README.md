@@ -1,2 +1,2 @@
-# VPN-Proxy
-python programs to let computers serve as front proxy/vpn as well as connecting to them
+# Network Engineering 
+python programs to simulate different parts of a network such as a foward proxy, load balancer, and honeypot. 
