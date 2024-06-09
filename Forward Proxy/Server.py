@@ -1,7 +1,7 @@
 import socket
 
 def start_server(host, port):
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # tcp ipv4 internet address family 
     server_socket.bind((host, port))
     server_socket.listen(5)  # Listen for up to 5 connections
     print(f"Server listening on {host}:{port}")
